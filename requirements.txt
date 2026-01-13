@@ -4,13 +4,10 @@ plotly==5.22.0
 requests==2.32.3
 python-dotenv==1.0.1
 google-generativeai==0.7.2
-chromadb==0.5.5
+chromadb>=0.4.24,<0.6.0  # Loose to avoid 3.13 issues
 pydantic==2.8.2
 langchain==0.2.16
 langchain-google-genai==1.0.8
 langchain-community==0.2.16
-prophet==1.1.5
-scikit-learn==1.8.0
-sentence-transformers
 langchain-huggingface==0.0.3
-statsmodels==0.14.2
+sentence-transformers>=3.0.0  # Loose for wheels
