@@ -17,8 +17,9 @@ Leaders gain rapid access to integrated federal data without navigating multiple
 Navigate to Explore Data to start.
 """)
 
-@st.experimental_singleton(suppress_st_warning=True)
+@st.cache_resource
 def init_rag():
     from rag.ingest import ingest_rag_data
     ingest_rag_data()  # Builds vectorstore on first run
+
 init_rag()
