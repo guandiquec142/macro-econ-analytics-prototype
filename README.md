@@ -37,9 +37,8 @@ Runs beautifully on Streamlit Community Cloud free tier. Zero paid services requ
    - `GOOGLE_API_KEY` (required – get free at https://aistudio.google.com/app/apikey)
    - `FRED_API_KEY` (strongly recommended)
    - `BLS_API_KEY` (strongly recommended – v2 key, register at https://data.bls.gov/registrationEngine/)
+   - Treasury data needs no key at all
 4. `streamlit run app.py`
-
-Treasury data needs no key at all.
 
 Feedback, forks, issues, and collaboration very welcome.
 
